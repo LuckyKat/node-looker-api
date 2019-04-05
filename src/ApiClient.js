@@ -418,7 +418,8 @@
    * @returns An instance of the specified type.
    */
   exports.convertToType = function(data, type) {
-    switch (type) {
+    return data;
+    /*switch (type) {
       case 'Boolean':
         return Boolean(data);
       case 'Integer':
@@ -465,7 +466,7 @@
           // for unknown type, return the data directly
           return data;
         }
-    }
+    }*/
   };
 
   /**
